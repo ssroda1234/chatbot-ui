@@ -1,0 +1,8 @@
+:root {
+  line-height: 1;
+
+}
+
+html, body{
+  scroll-behavior: smooth;
+}
