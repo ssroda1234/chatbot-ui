@@ -1,8 +1,12 @@
 :root {
   line-height: 1;
-
 }
 
-html, body{
+html,
+body {
   scroll-behavior: smooth;
+}
+
+body {
+  margin-top: 0px;
 }

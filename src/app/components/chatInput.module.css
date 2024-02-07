@@ -1,52 +1,52 @@
-.form{
-    position: sticky;
-    bottom: 0;
-  }
-  
-  .messageInput{
-    position: relative;
-    height: 30px;
-    outline: none;
-    position: sticky;
-    bottom: 0;
-    }
+.form {
+  position: sticky;
+  bottom: 0;
+}
 
-  .inputDiv {
-    border: none;
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  .messageInput input{
-    height: 30px;
-    min-width: 400px;
-    font-size: 1.2rem;
-    box-sizing:border-box;
-    border: 1px solid lightgray;
-    border-radius: 6px;
-    border-bottom-left-radius: 0px;
-    box-shadow: 4px 4px 2px rgb(225, 225, 225);
-    padding: 8px;
-    height: 40px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
+.messageInput {
+  position: relative;
+  height: 30px;
+  outline: none;
+  position: sticky;
+  bottom: 0;
+  margin-top: 20px;
+}
 
-  .messageInput input:focus{
-    outline: none;
-    box-shadow: 6px 6px 2px rgb(225, 225, 225);
-    transform: translateY(-5px);
-    border: 1px solid #007bff;
-    background-color: #25CFDB;
-    color: white;
-  }
-  
-  .messageInput button{
-    position: absolute;
-    height: 30px;
-    font-size: 1.2rem;
-    width: 10%;
-    right: 0;
-    text-align: right;
-    border: none;
-  }
-  
+.inputDiv {
+  border: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.messageInput input {
+  height: 30px;
+  min-width: 400px;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  border-bottom-right-radius: 0px;
+  box-shadow: 4px 4px 2px rgb(225, 225, 225);
+  padding: 8px;
+  height: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.messageInput input:focus {
+  outline: none;
+  box-shadow: 6px 6px 2px rgb(225, 225, 225);
+  border: 1px solid #007bff;
+  background-color: #25cfdb;
+  color: white;
+}
+
+.messageInput button {
+  position: absolute;
+  height: 30px;
+  font-size: 1.2rem;
+  width: 10%;
+  right: 0;
+  text-align: right;
+  border: none;
+}
