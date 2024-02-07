@@ -2,7 +2,7 @@
 
 import { FC } from 'react';
 import { ChatDefinition } from '../interface/chatDefinition';
-import './ChatHistory.css'
+import classes from './chatHistory.module.css'
 
 interface ChatHistoryProps {
     chats: ChatDefinition[];
@@ -12,12 +12,13 @@ interface ChatHistoryProps {
 const ChatHistory: FC<ChatHistoryProps> = ({
     chats,
   }) => {
+    console.log(classes);
 
     return (
-        <div className='ChatHistory'>
+        <div className={classes.chatHistory}>
           {chats && chats.length
             ? chats.map((chat, index) => (
-                <p key={index} className={chat.role === "user" ? "user_msg" : "system_msg"}>
+                <p key={index} className={chat.role === "user" ? classes.usermsg : classes.systemmsg}>
                   <span>{chat.content}</span>
                 </p>
               ))

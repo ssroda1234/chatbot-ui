@@ -1,7 +1,7 @@
 "use client";
 
 import { FC, useState } from 'react';
-import './ChatInput.css'
+import classes from './chatInput.module.css'
 
 export interface ChatInputProps {
     chatMessage: (e: any, message: string) => void;
@@ -17,9 +17,9 @@ const ChatInput: FC<ChatInputProps> = ({ chatMessage }) => {
     };
   
     return (
-      <div className="inputDiv">
+      <div className={classes.inputDiv}>
         <form action="" onSubmit={handleSubmit}>
-          <div className="messageInput">
+          <div className={classes.messageInput}>
             <input
               type="text"
               name="message"
