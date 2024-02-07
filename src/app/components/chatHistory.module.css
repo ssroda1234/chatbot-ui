@@ -1,0 +1,26 @@
+.chatHistory {
+  width: 100%;
+}
+
+.usermsg {
+  text-align: right;
+  margin: 4px 4px;
+  display: inline-block;
+  background-color: #25cfdb;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  border-bottom-right-radius: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.systemmsg {
+  background-color: #f5f8fa;
+  padding: 10px;
+  border-radius: 8px;
+  border-bottom-left-radius: 0px;
+  color: grey;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
